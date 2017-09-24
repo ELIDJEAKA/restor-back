@@ -30,6 +30,7 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
+<<<<<<< HEAD
     order: [
       'startRequestTimer',
       'cookieParser',
@@ -47,6 +48,25 @@ module.exports.http = {
       '404',
       '500'
     ],
+=======
+    // order: [
+    //   'startRequestTimer',
+    //   'cookieParser',
+    //   'session',
+    //   'myRequestLogger',
+    //   'bodyParser',
+    //   'handleBodyParserError',
+    //   'compress',
+    //   'methodOverride',
+    //   'poweredBy',
+    //   '$custom',
+    //   'router',
+    //   'www',
+    //   'favicon',
+    //   '404',
+    //   '500'
+    // ],
+>>>>>>> 9d956ae7a432267f7cae2aa12d453a66f0e649f8
 
   /****************************************************************************
   *                                                                           *
@@ -89,5 +109,9 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
+<<<<<<< HEAD
    cache: 31557600000
+=======
+  // cache: 31557600000
+>>>>>>> 9d956ae7a432267f7cae2aa12d453a66f0e649f8
 };

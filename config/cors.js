@@ -73,6 +73,10 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
+<<<<<<< HEAD
    headers: 'content-type'
+=======
+  // headers: 'content-type'
+>>>>>>> 9d956ae7a432267f7cae2aa12d453a66f0e649f8
 
 };

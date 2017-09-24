@@ -5,6 +5,7 @@
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
+<<<<<<< HEAD
 module.exports = {
 	
 //   /**
@@ -90,4 +91,14 @@ module.exports = {
 //     .pipe(res);
 //   }
 };
+=======
+ module.exports = {
+    uploadFile: function(req,res){
+      req.file('image').upload(function(err,file){
+          if (err) console.log(err)
+          res.json({"status":"file upload successfully","file" :file})
+      })
+    }
+ };
+>>>>>>> 9d956ae7a432267f7cae2aa12d453a66f0e649f8
 
